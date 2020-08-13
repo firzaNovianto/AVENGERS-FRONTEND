@@ -39,7 +39,6 @@ function History() {
             <td>{hero.finish_time}</td>
             <td>{hero.status}</td>
             <td>{hero.ultimate_move}</td>
-            <td ><input type="button" value="Deploy" className="btn btn-danger" onClick={() => {deployBtn(hero.id)}}/></td>
         </tr>  
                 
             
